@@ -352,7 +352,7 @@ const game = (() => {
       }
       v += om * om * (x - p) * dt; x += v * dt;
       lean = x - p;
-      if (Math.abs(lean) > FALL) { draw(); finish(false); return; }
+      if (Math.abs(lean) > FALL) { finish(false); draw(); return; }
       if (t >= WIN) { draw(); setTimer(WIN); finish(true); return; }
     }
     setTimer(t); draw(); requestAnimationFrame(loop);
