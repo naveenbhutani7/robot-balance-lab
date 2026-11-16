@@ -5,7 +5,7 @@ inverted pendulum), feedback control, the capture point, small feet, reaction de
 produced by a few lines of Python that you can change and re-run.
 
 Companion to the video **"Why Robots Fall Over: Balance as a Control Problem"** on the Concepts Mentor YouTube channel:
-**[add link]**
+**▶ https://youtu.be/WwjU_S1Khqw**
 
 ## ▶ Play first: the Balance Lab app (no install, no maths)
 
