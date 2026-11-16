@@ -7,6 +7,19 @@ produced by a few lines of Python that you can change and re-run.
 Companion to the video **"Why Robots Fall Over: Balance as a Control Problem"** on the Concepts Mentor YouTube channel:
 **[add link]**
 
+## ▶ Play first: the Balance Lab app (no install, no maths)
+
+**https://naveenbhutani7.github.io/robot-balance-lab/** works in any browser, including on a phone.
+
+1. **You try:** keep a pole upright with your mouse or finger. Shorter poles fall faster; a 150 ms delay makes it much harder.
+2. **Robot's turn:** push a simulated robot. Choose its reaction delay, the push and its foot size, and watch it recover,
+   wobble or fall, with a live graph next to it.
+3. **Quick quiz:** five rounds of "will it stay up or fall?"
+
+The app (`index.html` + `sim.js`) uses the same model as the notebook.
+
+## Go deeper: the notebook
+
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/naveenbhutani7/robot-balance-lab/blob/main/balance_lab.ipynb)
 
 ## What you'll do (11 short parts)
@@ -75,4 +88,4 @@ This is a simple textbook model for learning. It is **not** any real robot's con
 
 ## Licence
 
-MIT, see [LICENSE](LICENSE). This repository contains only the teaching notebook; the video, its audio and its clips are not part of it.
+MIT, see [LICENSE](LICENSE). This repository contains only the teaching notebook and the browser app; the video, its audio and its clips are not part of it.
